@@ -25,6 +25,7 @@ public class FelisSilvestris {
             System.out.println("You didn't enter a color.");
         }
     }
+    //Getter for NAME field
     public String getName() {
         return this.name;
     }
