@@ -45,6 +45,15 @@ public class FelisSilvestris {
         }
     }
 
+    //Setter for COLLOR field
+    public void setColor(String color) {
+        if (color != null && !color.equals("")){
+            this.color = color;
+        } else {
+            System.out.println("You didn't enter a color.");
+        }
+    }
+
     //Method for introduce an animal person
     public void sayHello() {
         System.out.println("Hello! My name is " + name + " and my color is " + this.color);
